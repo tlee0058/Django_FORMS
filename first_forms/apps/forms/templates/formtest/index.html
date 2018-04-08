@@ -1,0 +1,11 @@
+<body>
+        <form class="" action="/" method="post">
+            {% csrf_token %}
+            {{ myregistrationform }}
+            <input type="submit" name="" value="Submit the form!">
+        </form>
+    </body>
+
+<!--     {{ myregistrationform.as_p }}
+    {{ myregistrationform.as_table }}
+    {{ myregistrationform.as_ul }} -->
